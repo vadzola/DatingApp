@@ -4,8 +4,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown' ;
 import { ToastrModule } from 'ngx-toastr';
 
 
+
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     BsDropdownModule.forRoot(),
@@ -17,5 +17,6 @@ import { ToastrModule } from 'ngx-toastr';
     BsDropdownModule, 
     ToastrModule
   ],
+  declarations: [],
 })
 export class SharedModule {}
